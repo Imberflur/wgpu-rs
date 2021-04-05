@@ -95,6 +95,9 @@ If you want events to be handled both by `tracing` and `log`, enable the `log-al
 tracing = { version = "0.1", features = ["log-always"] }
 ```
 
+## API Trace Generation
+https://github.com/gfx-rs/wgpu/wiki/Debugging-wgpu-Applications#tracing-infrastructure
+
 ## Development
 
 If you need to test local fixes to gfx-rs or other dependencies, the simplest way is to add a Cargo patch. For example, when working on DX12 backend on Windows, you can check out the "hal-0.2" branch of gfx-rs repo and add this to the end of "Cargo.toml":
